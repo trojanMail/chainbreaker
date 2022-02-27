@@ -1,0 +1,5 @@
+cp -r test test2
+g++ chainbreaker.c -o test/cbe.exe
+g++ chainbuilder.c -o test/cbd.exe
+cd test
+./cbe.exe
